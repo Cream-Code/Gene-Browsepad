@@ -146,7 +146,6 @@ class MyNote(QMainWindow):
         languagesMenu.addAction(jsAction)
         languagesToolbar.addAction(jsAction)
         
-        # self.updateTitle()
         
     def toggleWrapText(self):
         self.editor.setLineWrapMode(not self.editor.lineWrapMode())
@@ -166,7 +165,6 @@ class MyNote(QMainWindow):
             else:
                 self.path=path
                 self.editor.setPlainText(text)
-                self.updateTitle()
 
     def fileSave(self):
         if self.path is None:
@@ -194,7 +192,6 @@ class MyNote(QMainWindow):
                 self.dialogMessage(str(e))
             else:
                 self.path = path
-                self.updateTitle()
     def printFile(self):
         printDialog=QPrintDialog()
         if printDialog.exec_():
