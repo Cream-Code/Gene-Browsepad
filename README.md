@@ -19,5 +19,5 @@ DOCUMENTATION
 
 LICENSE
 
-  Gene -Browsepad is free and open-source. Resleased under GPL v3
+  Gene -Browsepad is free and open-source. Released under GPL v3
 
