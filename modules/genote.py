@@ -200,8 +200,7 @@ class MyNote(QMainWindow):
                 self.path = path
 
     def redirect(self,path):
-        self.browser.updateURL(QUrl('file:///'+path))
-        self.browser.navigateTo()
+        self.browser.changeUrl('file:///'+path)
         
     def printFile(self):
         printDialog=QPrintDialog()

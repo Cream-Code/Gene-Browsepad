@@ -2,7 +2,7 @@ from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtWebEngineWidgets import *
-
+import re
 import os
 
 class Browser(QMainWindow):
@@ -61,6 +61,7 @@ class Browser(QMainWindow):
 
         #address bar
         self.urlbar =QLineEdit()
+        self.urlbar.setPlaceholderText('Search or type URL')
         self.urlbar.returnPressed.connect(self.navigateTo)
         navToolBar.addWidget(self.urlbar)
 
@@ -96,12 +97,23 @@ class Browser(QMainWindow):
         self.urlbar.setText(q.toString())
         self.urlbar.setCursorPosition(0)
 
+    def changeUrl(self,q):
+        self.browser.setUrl(QUrl(q))
+
     def navigateTo(self):
         #getting URL
-        q=QUrl(self.urlbar.text())
-        if q.scheme() == "":
-            #setting default http scheme if https is not set
-            q.setScheme("http")
-        
+        urlText=self.urlbar.text()
+        #checking whether entered text is a web url or search string
+        match = re.match(r'[a-zA-Z0-9]+[.][a-zA-Z0-9][a-zA-Z0-9]+',urlText)
+        if match:
+            q=QUrl(urlText)
+            if q.scheme() == "":
+                #setting default http scheme if https is not set
+                q.setScheme("http")
+        else:
+            #making the input url string as google search string
+            urlText='https://google.com/search?q='+urlText.replace(' ','+')
+            q=QUrl(urlText)
         #calling the requested URL
         self.browser.setUrl(q)
+    
