@@ -9,7 +9,7 @@ from syntaxhighlighters.css import CssHighlighter
 from syntaxhighlighters.JavaScript import JavaScriptHighlighter
 
 class MyNote(QMainWindow):
-    def __init__(self,browser):
+    def __init__(self):
         super().__init__()
         
         #setting files supported file types         
@@ -17,9 +17,6 @@ class MyNote(QMainWindow):
         
         #path for file location
         self.path=None
-
-        #adding browser object
-        self.browser=browser
 
         #highlight variable for language specific highlight
         self.highlighter = None
@@ -163,7 +160,6 @@ class MyNote(QMainWindow):
                 with open(path,'r') as f:
                     text=f.read()
                     f.close()
-                self.redirect(path)
             except Exception as e:
                 self.dialogMessage(str(e))
             else:
@@ -179,7 +175,6 @@ class MyNote(QMainWindow):
                 with open(self.path, 'w') as f:
                     f.write(text)
                     f.close()
-                self.redirect(self.path)
             except Exception as e:  
                 self.dialogMessage(str(e))
     
@@ -193,17 +188,10 @@ class MyNote(QMainWindow):
                 with open(path, 'w') as f:
                     f.write(text)
                     f.close()
-                self.redirect(path)
             except Exception as e:
                 self.dialogMessage(str(e))
             else:
                 self.path = path
-
-    def redirect(self,path):
-        #refreshing browser with edited file to see html output
-        self.browser.updateURL(QUrl('file:///'+path))
-        self.browser.navigateTo()
-        
     def printFile(self):
         printDialog=QPrintDialog()
         if printDialog.exec_():
