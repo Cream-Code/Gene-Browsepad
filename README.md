@@ -1,6 +1,9 @@
 # Welcome to Gene Browsepad!
 ### Gene Browsepad README
 
+Cream Code
+
+
 ABOUT:
 
 Enthusiastic student developers collaborate to make a browser for Web designers.
@@ -19,5 +22,5 @@ DOCUMENTATION
 
 LICENSE
 
-  Gene -Browsepad is free and open-source. Resleased under GPL v3
+  Gene -Browsepad is free and open-source. Released under GPL v3
 
