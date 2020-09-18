@@ -19,6 +19,7 @@ class Browser(QMainWindow):
                 border-width:5px;
                 border-radius:20px;
                 height:40px;
+                font-size:20px;
             }
         """
 
