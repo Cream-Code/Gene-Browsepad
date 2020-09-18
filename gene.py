@@ -25,7 +25,7 @@ class MyWindow(QWidget):
 
         #for having two sub-windows in same window
         splitWindow = QSplitter(Qt.Horizontal)
-        lineedit =MyNote()
+        lineedit =MyNote(browser)
 
         splitWindow.addWidget(browser)
         splitWindow.addWidget(lineedit)
