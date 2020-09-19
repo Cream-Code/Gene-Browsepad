@@ -7,7 +7,9 @@ Cream Code
 ABOUT:
 
 Enthusiastic student developers collaborate to make a browser for Web designers.
+Gne Browsepad is designed in Python using PyQt technology 
 Gene lets you edit your web documents i.e., HTML,CSS and JavaScripts files and see their changes besides in the Browser pane.
+If you are interested you can contribute to this project.
 
 COMPONENTS:
 
