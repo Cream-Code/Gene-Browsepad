@@ -19,8 +19,7 @@ COMPONENTS:
 
 DOCUMENTATION
 
-  https://github.com/Cream-Code/Gene-Browsepad/docs/
-
+    External documentation will be available soon
 
 LICENSE
 
