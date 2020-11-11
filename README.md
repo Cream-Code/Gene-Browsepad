@@ -10,19 +10,32 @@ In this GENE BROWSEPAD we are creating a browser and text editor and integrate t
 Frist we are discourse about browser 
 ![sccreenshot](https://github.com/Cream-Code/Gene-Browsepad/blob/master/src/Screenshot.png "screenshoot")
 
-###1.Search Bar:
+1.Search Bar:
+
 here you can search a word in google (or) search URL.
-###2.Ssl Lock:  
+
+2.Ssl Lock:  
+
 this icon check’s your webpage is secure or not. 
-###3.Reload: 
+
+3.Reload: 
+
 this icon is used to reload your webpage. 
-###4.Home: 
+
+4.Home: 
+
 this icon is used to go the home page of browser. 
-###5.Forward: 
+
+5.Forward: 
+
 this icon is used to forward the webpage. 
-###6.Backward: 
+
+6.Backward: 
+
 this icon is used to backward the webpage. 
-###7.Stop Load: 
+
+7.Stop Load: 
+
 this icon is used to stop the loading webpage. 
 
 ##Text Editor:
