@@ -12,6 +12,12 @@
 
  Best of Luck:)
 
+ <h2>Build and Installtion:</h2>
+
+You can download or clone our repositorie simply run gene.py file.
+
+If you want to download exe file <a href="https://drive.google.com/uc?export=download&id=1DYVmGoK5Z1J_hCEL1pP628HVB__qY3Fj">click here</a>
+
 <h2>How To Use GENE BROWSEPAD: </h2>
 
 In this GENE BROWSEPAD we are creating a browser and text editor and integrate the browser and text editor. 
