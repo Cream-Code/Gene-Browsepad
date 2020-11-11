@@ -1,8 +1,8 @@
 
-<div align=”center”>
+<p align="center">
 	<img src="https://github.com/Cream-Code/Gene-Browsepad/blob/master/icons/logo.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="350" height="400" />
 
-<h1>GENE BROWSEPAD</h1></div>
+<h1>GENE BROWSEPAD</h1></p>
 
 <h2>About:</h2>
 
