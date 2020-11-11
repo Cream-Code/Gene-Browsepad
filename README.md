@@ -46,7 +46,7 @@ this icon is used to stop the loading webpage.
 <h2>Text Editor:</h2>
 
 Now we are discourse about 
-![sccreenshot](https://github.com/Cream-Code/Gene-Browsepad/blob/master/src/Screenshot.png "screenshoot")
+![sccreenshot](https://github.com/Cream-Code/Gene-Browsepad/blob/master/src/Screenshot1.png "screenshoot")
 
 <h3>1.OPEN:</h3>
 
