@@ -6,7 +6,7 @@
 
 <h2>About:</h2>
 
- Enthusiastic student developers collaborate to make a browser for Web designers. Gene Browsepad is designed in Python using PyQt technology Gene lets you edit your web documents i.e., HTML,CSS and JavaScripts files and see their changes besides in the Browser pane. If you are interested you can contribute to this project.
+ Hello Everyone,An incredible user-friendly browser is designed by enthusiastic student developers and named as "GENE BROWSEPAD" . Gene is created in Python using PyQt technology. Gene permits to edit web pages written in HTML,CSS,JS and allows to acquire outputs rapidly. It helps to enhance skills as it shows concurrent results with time optimization. It's time to use Gene browserpad !!! Best of Luck:)
 
 <h2>How To Use GENE BROWSEPAD: </h2>
 
