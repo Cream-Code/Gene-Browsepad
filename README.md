@@ -1,4 +1,4 @@
-![sccreenshot](https://github.com/Cream-Code/Gene-Browsepad/blob/master/icons/logo.png "screenshoot")
+![sccreenshot](https://github.com/Cream-Code/Gene-Browsepad/blob/master/icons/gene.png "screenshoot")
 <h1>GENE BROWSEPAD</h1>
 
 <h2>About:</h2>
