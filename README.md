@@ -1,71 +1,102 @@
 <h1>GENE BROWSEPAD</h1>
 
-##About:
+<h2>About:</h2>
+
  Enthusiastic student developers collaborate to make a browser for Web designers. Gene Browsepad is designed in Python using PyQt technology Gene lets you edit your web documents i.e., HTML,CSS and JavaScripts files and see their changes besides in the Browser pane. If you are interested you can contribute to this project.
-##How To Use GENE BROWSEPAD: 
+
+<h2>How To Use GENE BROWSEPAD: </h2>
+
 In this GENE BROWSEPAD we are creating a browser and text editor and integrate the browser and text editor. 
 ![sccreenshot](https://github.com/Cream-Code/Gene-Browsepad/blob/master/src/Screenshot2.png "screenshoot")
 
-##Browser:
-Frist we are discourse about browser 
+<h2>Browser:</h2>
+
+Frist we are discourse about browser
+
 ![sccreenshot](https://github.com/Cream-Code/Gene-Browsepad/blob/master/src/Screenshot.png "screenshoot")
 
-1.Search Bar:
+<h3>1.Search Bar:</h3>
 
 here you can search a word in google (or) search URL.
 
-2.Ssl Lock:  
+<h3>2.Ssl Lock:</h3>  
 
 this icon check’s your webpage is secure or not. 
 
-3.Reload: 
+<h3>3.Reload: </h3>
 
 this icon is used to reload your webpage. 
 
-4.Home: 
+<h3>4.Home: </h3>
 
 this icon is used to go the home page of browser. 
 
-5.Forward: 
+<h3>5.Forward: </h3>
 
 this icon is used to forward the webpage. 
 
-6.Backward: 
+<h3>6.Backward: </h3>
 
 this icon is used to backward the webpage. 
 
-7.Stop Load: 
+<h3>7.Stop Load: </h3>
 
 this icon is used to stop the loading webpage. 
 
-##Text Editor:
+<h2>Text Editor:</h2>
+
 Now we are discourse about 
 ![sccreenshot](https://github.com/Cream-Code/Gene-Browsepad/blob/master/src/Screenshot.png "screenshoot")
 
-###1.OPEN: 
+<h3>1.OPEN:</h3>
+
 this icon is used to open a file in your computer storage. 
-###2.SAVE: 
+
+<h3>2.SAVE: </h3>
+
 this icon is used to save the file and reload the webpage. 
-###3.SAVE_AS: 
+
+<h3>3.SAVE_AS: </h3>
+
 this icon is used to save the file in anthor name. 
-###4.PRINT:  
+
+<h3>4.PRINT:  </h3>
+
 this icon is used to print you text document (or) code. 
-###5.UNDO: 
+
+<h3>5.UNDO: </h3>
+
 this icon is used to undo the action. 
-###6.REDO: 
+
+<h3>6.REDO: </h3>
+
 this icon is used to redo the action. 
-###7.CUT: 
+
+<h3>7.CUT: </h3>
+
 this icon is used to cut the text. 
-###8.=COPY: 
+
+<h3>8.COPY: </h3>
+
 this icon is used to copy the text. 
-###9.PASTE: 
+
+<h3>9.PASTE: </h3>
+
 this icon is used to paste the text. 
-###10.PYTHON Syntax Highlighter: 
+
+<h3>10.PYTHON Syntax Highlighter: </h3>
+
 this icon is used to Highlight your python code. 
-###11.HTML Syntax Highlighter: 
+
+<h3>11.HTML Syntax Highlighter: </h3>
+
 this icon is used to Highlight your HTML script. 
-###12.CSS Syntax Highlighter: 
+
+<h3>12.CSS Syntax Highlighter: </h3>
+
 this icon is used to highlight your CCS script. 
-###13.JS Syntax Highlighter: 
+
+<h3>13.JS Syntax Highlighter: </h3>
+
 this icon is used to highlight your JS script. 
 
